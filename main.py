@@ -15,7 +15,7 @@ while True:
     success, img = cap.read()
     hands, img = detector.findHands(img)
     
-    img1 = cv2.imread("one.jpg")
+    img1 = cv2.imread("sample-image.jpg")
 
     if len(hands) == 2:
         # print("Zoom Gesture")
